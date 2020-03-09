@@ -1,0 +1,106 @@
+@import "variables";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 901px;
+  margin: 0 auto;
+}
+
+.info {
+
+  &__title {
+    font-size: 36px;
+    margin-top: 39px;
+  }
+
+  &__entire {
+    font-size: 16px;
+    color: #687c94;
+
+    margin-top: 10px;
+  }
+
+  &__list {
+    margin-top: 15px 0 0 0;
+
+    list-style: none;
+
+    display: flex;
+
+    padding: 0;
+
+    &__item {
+      padding-right: 15px;
+      font-size: $font-size-default;
+    }
+  }
+  &__text-about {
+    width: 491px;
+    margin-top: 30px;
+    font-size: $font-size-default;
+  }
+
+  &__little-title {
+    font-size: $font-size-default;
+    margin-top: 25px;
+
+    &__link {
+      text-decoration: none;
+      color: #3d4e61;
+      transition: color 0.3s, opacity 0.3s;
+    }
+
+    &__link:hover {
+      color: $hover-color;
+      opacity: 0.8;
+    }
+  }
+
+  &__title-amenities {
+    font-size: 20px;
+    margin-top: 44px;
+  }
+  &__amenities {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "lone ltwo"
+      "lthree lfour";
+    width: 400px;
+    grid-row-gap: 15px;
+
+    &__list-one {
+      grid-area: lone;
+    }
+
+    &__list-two {
+      grid-area: ltwo;
+    }
+
+    &__list-three {
+      grid-area: lthree;
+    }
+
+    &__list-four {
+      grid-area: lfour;
+    }
+  }
+
+  &__link-show-all {
+    margin-top: 20px;
+    margin-bottom: 0;
+
+    &__link {
+      text-decoration: none;
+      color: $default-color;
+      font-size: $font-size-default;
+
+      transition: color 0.3s, opacity 0.3s;
+      &:hover {
+        color: $hover-color;
+        opacity: 0.8;
+      }
+    }
+  }
+}
