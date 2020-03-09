@@ -69,6 +69,10 @@
   .nav__list-link:hover {
     color: #7fa1c9; }
 
+@media (max-width: 1440px) {
+  .header__photo {
+    width: 1440px; } }
+
 .info__registration-bar {
   position: relative;
   width: 330px;
@@ -142,8 +146,8 @@
           justify-content: space-between;
   width: 901px;
   margin: 0 auto;
-  padding-right: 100px;
-  padding-left: 100px; }
+  padding-right: 200px;
+  padding-left: 200px; }
 
 .info__title {
   font-size: 36px;
@@ -225,8 +229,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-right: 100px;
-  padding-left: 100px; }
+  padding-right: 200px;
+  padding-left: 200px; }
   .reviews__container__title {
     font-size: 28px;
     margin-top: 66px; }
@@ -274,8 +278,8 @@
   display: flex;
   width: 901px;
   margin: 60px auto 0;
-  padding-right: 100px;
-  padding-left: 100px; }
+  padding-right: 200px;
+  padding-left: 200px; }
   .hosted__title {
     font-family: Roboto, sans-serif;
     font-size: 28px;
@@ -332,7 +336,7 @@
     width: 901px;
     height: 100%;
     margin: 0 auto;
-    padding: 44px 100px 0; }
+    padding: 44px 200px 0; }
     .footer__wrap__title {
       font-size: 16px;
       padding-bottom: 23px; }

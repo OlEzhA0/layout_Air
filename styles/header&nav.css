@@ -69,4 +69,8 @@
   .nav__list-link:hover {
     color: #7fa1c9; }
 
+@media (max-width: 1440px) {
+  .header__photo {
+    width: 1440px; } }
+
 /*# sourceMappingURL=header&nav.css.map */
