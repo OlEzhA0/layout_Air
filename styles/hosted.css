@@ -1,0 +1,46 @@
+.hosted {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 901px;
+  margin: 60px auto 0; }
+  .hosted__title {
+    font-family: Roboto, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0; }
+  .hosted__country {
+    font-size: 14px;
+    margin-top: 12px; }
+  .hosted__text {
+    font-size: 16px;
+    margin-top: 15px; }
+  .hosted__link {
+    text-decoration: none; }
+    .hosted__link__button {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 150px;
+      height: 50px;
+      color: #118488;
+      font-size: 16px;
+      font-weight: bold;
+      border: 1px solid #118488;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border-radius: 4px;
+      margin-top: 20px;
+      -webkit-transition: color 0.4s, background-color 0.4s;
+      transition: color 0.4s, background-color 0.4s; }
+      .hosted__link__button:hover {
+        color: white;
+        background-color: #118488; }
+
+/*# sourceMappingURL=hosted.css.map */
