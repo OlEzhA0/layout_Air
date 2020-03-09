@@ -6,7 +6,9 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 901px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-right: 100px;
+  padding-left: 100px; }
 
 .info__title {
   font-size: 36px;

@@ -3,7 +3,9 @@
   display: -ms-flexbox;
   display: flex;
   width: 901px;
-  margin: 60px auto 0; }
+  margin: 60px auto 0;
+  padding-right: 100px;
+  padding-left: 100px; }
   .hosted__title {
     font-family: Roboto, sans-serif;
     font-size: 28px;

@@ -15,7 +15,7 @@
     width: 901px;
     height: 100%;
     margin: 0 auto;
-    padding-top: 44px; }
+    padding: 44px 100px 0; }
     .footer__wrap__title {
       font-size: 16px;
       padding-bottom: 23px; }
